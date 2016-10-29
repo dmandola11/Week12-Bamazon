@@ -21,4 +21,7 @@ If the quantity requested is higher than amount in stock (StockQuantity from pro
 ### 5. New Quantity, Submit Order
 Now the user still wants an iPhone 8 so they try for a lower quantity of 9. The app then displays the name, unit price, quantity and the total for the order. The user is then notified that the order has been submitted. Success!
 ![Submit Order](https://github.com/dmandola11/Week12-Bamazon/blob/master/Media/Order%20Submitted.png)
- 
+
+### 6. Database Updated
+The databse is now updated to reflect the change from the order that the user has placed. The iPhone 8 StockQuantity has changed from 10 to 1.
+[Database Updated](https://github.com/dmandola11/Week12-Bamazon/blob/master/Media/Database%20Updated.png)
