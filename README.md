@@ -1,6 +1,6 @@
 # Week12-Bamazon
 ## Demo Video
-link to my [demo](https://github.com/dmandola11/Week12-Bamazon/blob/master/Media/BamazonDemo.mov)
+link to my ![demo](https://github.com/dmandola11/Week12-Bamazon/blob/master/Media/Bamazon_Demo.mov)
 ## Screen Shots
 
 ### 1. Bamazon Database
