@@ -9,3 +9,6 @@ DepartmentName VARCHAR(100) NOT NULL,
 Price DECIMAL(6,2) NOT NULL,
 StockQuantity INT(4) NOT NULL
 );
+
+INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity)
+VALUES ("Macbook Pro","Computers", 200.39, 200);
