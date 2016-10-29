@@ -24,4 +24,4 @@ Now the user still wants an iPhone 8 so they try for a lower quantity of 9. The 
 
 ### 6. Database Updated
 The databse is now updated to reflect the change from the order that the user has placed. The iPhone 8 StockQuantity has changed from 10 to 1.
-[Database Updated](https://github.com/dmandola11/Week12-Bamazon/blob/master/Media/Database%20Updated.png)
+![Database Updated](https://github.com/dmandola11/Week12-Bamazon/blob/master/Media/Database%20Updated.png)
