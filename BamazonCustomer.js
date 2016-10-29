@@ -17,9 +17,9 @@ connection.connect(function(error){
 
 var showProducts = connection.query('SELECT * FROM products', function(error, result) {
         if (error) throw error;
-    	console.log('Available products:');
+    	console.log('---------Available products---------');
     	for(var i = 0; i < result.length; i++) {
-      console.log('Item ID: ' + result[i].ItemID + '   Product Name: ' + result[i].ProductName + '   Price: $' + result[i].Price);
+      console.log('Item ID: ' + result[i].ItemId + '   Product Name: ' + result[i].ProductName + '   Price: $' + result[i].Price);
     };
   
     startPrompt();
@@ -39,7 +39,7 @@ function startPrompt() {
 		inquirer.prompt({
 			name: 'quantity',
 			type: 'input',
-			message: 'You have selected' + result[idSelected].ProductName + '. Please enter a quantity.'
+			message: 'You have selected ' + result[idSelected].ProductName + '. Please enter a quantity.'
 		}).then(function(answerQuantity){
 			var quantity = parseInt(answerQuantity.quantity);
 			var inventory = parseInt(result[idSelected].StockQuantity);
